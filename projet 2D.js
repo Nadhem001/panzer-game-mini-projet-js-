@@ -48,7 +48,8 @@
  
   //bomb 1
    if(test1=="1")
-   {posx1=posx1-10;
+   {
+    posx1=posx1-10;
     bomb.drawImage(image1,15,16,184,191,posx1,posy1,30,30);
     //alert("11")
   }
